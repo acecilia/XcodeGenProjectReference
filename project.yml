@@ -1,0 +1,11 @@
+name: Example
+
+projectReferences:
+  FooLib:
+    path: FooLib/FooLib.xcodeproj
+
+schemes:
+  FooLib:
+    build:
+      targets:
+        FooLib/FooLib: ["run"]

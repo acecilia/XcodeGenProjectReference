@@ -1,0 +1,6 @@
+name: FooLib
+
+targets:
+  FooLib:
+    type: framework
+    platform: iOS
