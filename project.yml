@@ -1,5 +1,8 @@
 name: Example
 
+options:
+  minimumXcodeGenVersion: 2.10.1
+
 projectReferences:
   FooLib:
     path: FooLib/FooLib.xcodeproj
