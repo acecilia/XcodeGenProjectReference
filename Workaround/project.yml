@@ -1,0 +1,16 @@
+name: Example
+
+options:
+  minimumXcodeGenVersion: 2.10.1
+
+fileGroups: [
+  FooLib/FooLib.xcodeproj
+]
+
+targets:
+  Bar:
+    platform: iOS
+    type: application
+    dependencies:
+      - framework: FooLib.framework
+        implicit: true

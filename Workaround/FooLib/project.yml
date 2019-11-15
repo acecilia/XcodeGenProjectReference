@@ -1,0 +1,9 @@
+name: FooLib
+
+options:
+  minimumXcodeGenVersion: 2.10.1
+
+targets:
+  FooLib:
+    type: framework
+    platform: iOS
